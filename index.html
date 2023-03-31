@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" href="ott-style3.css"> <!-- css -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- 햄버거 아이콘 -->
+  <script src="https://kit.fontawesome.com/3d3e474ad5.js" crossorigin="anonymous"></script> <!-- 햄버거 아이콘 -->
+  <script src="ott-script3.js" defer></script> <!-- js -->
+  <script>
+    $( document ).ready( function() {
+      $('.center').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+      });  
+    });
+    </script>
+  <title>How-Interior?_How-Edu!</title>
+</head>
+
+<body>c
+  <div class="allpage">
+    <div id="hamburger">
+      <div class="hamcontainer">
+        <div class="hambox">
+          <div class="hammenu-logo">
+            <img src="./images/HouEdu_Logo.png" alt="logo">
+          </div>
+          <div>
+            <a class="menu-out" href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+          </div>
+          <div>
+            <a class="hammenu1" href="#"><i class="fa-solid fa-user"> &nbsp;&nbsp;로그인/회원가입</i></a>
+          </div>
+          <div>
+            <a class="hammenu2" href="#here1"><i class="fa-solid fa-list"> &nbsp;소개</i></a>
+          </div> 
+          <div>
+            <a class="hammenu3" href="#here2"><i class="fa-solid fa-notes-medical"> &nbsp;WHY? HowEdu?</i></a>
+          </div>
+          <div>
+            <a class="hammenu4" href="#here3"><i class="fa-solid fa-mobile"> &nbsp;&nbsp;이런분이라면 신청하세요!</i></a>
+          </div>
+          <div>
+            <a class="hammenu5" href="#here4"><i class="fa-sharp fa-solid fa-question"> &nbsp;&nbsp;자주 묻는 질문</i></a>
+          </div>
+          <div class="ham_lang">
+            <div><img src="./images/globe.png">&nbsp;&nbsp;&nbsp; 언어선택 &nbsp;&nbsp;
+              <select class="ham_langmenu">
+              <option value="kor" selected>한국어</option>
+              <option value="eng">ENGLISH</option>
+              <option value="jpn">日本語</option>
+              <option value="chn">中文</option>
+              </select> 
+            </div>           
+          </div>
+          <div clas="ham-sns">
+            <div>
+              <a class="yt" href="#"><img src="./images/youtube1.png"></a>
+            </div>
+            <div>
+              <a class="ist" href="#"><img src="./images/instagram1.png"></a>
+            </div>
+            <div>
+              <a class="tw" href="#"><img src="./images/twitter1.png"></a>
+            </div>
+            <div>
+              <a class="fb" href="#"><img src="./images/facebook1.png"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+      
+    <!-- 상단 메뉴 -->
+    <header id="header">
+      <nav class="navbar">
+        <div>
+          <a href="./index.html">
+            <img id="logo" src="./images/HouEdu_Logo.png" alt="logo">
+          </a>
+        </div>
+        <ul class="sel">
+          <li><a class="move1" href="#here1">Interior-Edu, HowEdu!</a></li>
+          <li><a class="move2" href="#here2">Why? HouEdu!</a></li>
+          <li><a class="move3" href="#here3">베테랑 반장님들</a></li>
+          <li><a class="move4" href="#here4">Why? HouMentor!</a></li>
+          <li><a class="move5" href="#here5">자주 하는 질문</a></li>
+        </ul>
+        <ul class="navbar_menu">
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">회원가입</a></li>
+        </ul>
+        <!-- <div class="select_lang">
+          <select class="lang">
+          <option value="kor" selected>한국어</option>
+          <option value="eng">ENGLISH</option>
+          <option value="jpn">日本語</option>
+          <option value="chn">中文</option>
+          </select>            
+        </div> -->
+        <a href="#" class="navbar_tooglebtn"><i class="fa-solid fa-bars"></i></a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- 팝업 창 -->
+      <!-- <div id="popup"> -->
+        <!-- <div class="popupbox"> -->
+          <!-- <div class="popupcancle"></div> -->
+        <!-- </div> -->
+      <!-- </div> -->
+
+
+      <!-- 첫 페이지 : Interior Edu, HouEdu + 비디오 자동재생 -->
+      <section id="first_page">
+        <div><a name="here1"></a></div>
+        <div class="conimg">
+          <p class="hw">Interior-Edu,</p>
+          <p class="mw">이젠 HowEdu 하나로 끝내세요!</p>
+          <p class="mw1">인테리어 첫 시작부터 심화 기술 노하우까지!<br>내 손에서 시작될 아름다운 인테리어 디자인<br>How Interior? HouEdu!</p>
+
+          <div id="video_box">
+            <iframe id="video" width="1000px" height="400" 
+            src="https://www.youtube.com/embed/ZoIiutX5NFM?amp;autoplay=1&amp;mute=1&amp;fs=1&amp;controls=0&amp;playlist=ZoIiutX5NFM&amp;loop=1" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write;  
+            encrypted-media; gyroscope; picture-in-picture;
+            allowfullscreen"></iframe>
+          </div>
+        </div>
+        <a name="here2"></a>
+      </section>
+
+
+      <!-- 두번째페이지 : Why? HouEdu? -->
+      <section id="contents1">
+        <div class="middle1">
+          <p class="h2w">WHY? HouEdu여야만 할까요?<br></p>
+          <p class="m2w1">수십년의 경력의 실력과 디자인, 디테일한 꿀팁까지 <br>시공의 모든것을 한번에 잡아줄 최적의 반장님들의 직강!<br></p>
+          <p class="m2w">오직 HouEdu에서만 만나실 수 있습니다.</p>
+        </div>
+        <div class="middle_all">
+          <div class="slide">
+            <div class="slide_item">
+              <img src="./images/bans2.jpeg">
+            </div>
+
+
+          <!-- <img src="./images/bans.jpeg" alt=""> -->
+        </div>
+      </section>
+
+
+
+      <!-- 세번째페이지 : 베테랑 반장님들 안내 -->
+
+
+        <a name="here2"></a>
+      </section>
+      <section id="device-section">
+        <a name="here3"></a>
+        <div class="device-title">
+          <p>각 분야의 베테랑 반장님들의 노하우,<br>이제는 HowEdu에서 만나보세요!</p>
+        </div>
+        <div class="center">
+          <div><img class="slide-img" src="./images/Jung_ban.jpeg"></div>
+          <div><img class="slide-img" src="./images/jang_ban.jpeg"></div>
+          <div><img class="slide-img" src="./images/thismonth_ban.jpeg"></div>
+          <div><img class="slide-img" src="./images/kim_ban_silk.jpeg"></div>
+        </div>
+        <div class="add-ex">
+          <p>인테리어 기술 뿐만 아니라<br>시공 전과정과 커뮤니케이션과 노하우,<br>520+ 반장님들과의 연계 매칭까지!</p>
+        </div>
+      </section>
+
+
+
+      <!-- 네번째페이지 : Why? HouMentor -->
+      <a name="here4"></a>
+      <section id="houmentor_section">
+        <div class="header__container">
+        
+        <div class="body__contents">
+          <div class="body__image">
+            <img src="./images/one2one6.jpeg" class="body__image__contents">
+          </div>
+
+        </div>
+        <div class="header__title">
+          <h1>인테리어 공부,<br>이제는 혼자 하려고 하지 마세요!</h1><p><br>최소 현업 5년 이상 경력의 멘토님들이 1:1 밀착 케어로<br>여러분들의 인테리어와 함께 합니다.</p>
+          
+          <div class="contents">
+            <div class="contents_top">
+              <p>HouEdu의 축적된 현장 know-how와<br>현장실습까지 밀착 관리 system으로<br>온라인교육부터 현장 실무까지 -<br>포기없이 함께 갑시다.<br><br><br>인테리어 교육도 역시<br>HOUSTEP,<br>HouEdu!</p>
+            </div>
+            <div class="contents_bottom">
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </section>
+
+
+      <!-- 다섯번째페이지 : Q&A -->
+      <a name="here5"></a>
+      <section id="qna_section">
+        
+        <div class="qna-title">
+          <p>자주 찾는 질문</p>
+        </div>       
+        <details>
+          <summary>Q: HouEdu가 무엇인가요?&nbsp;&nbsp;&nbsp;&nbsp;</summary><br>
+          &nbsp;&nbsp;가격과 품질, 본질에 집중한 합리적인 서비스로 최상의 만족감을 제공하는 HOUSTEP의 인테리어 시공 전문 교육 플랫폼입니다.<br><br>
+          &nbsp;&nbsp;최신 트랜드를 반영한 인테리어, 수십년 경력의 노하우, 최정예 고수 베테랑 반장님들의 서비스와 꿀팁까지 풍성한 컨텐츠들이 모두 녹아있습니다.
+        </details>
+        <details>
+          <summary>Q: HouMentor님들은 어떤 역할을 수행해주시나요?&nbsp;&nbsp;&nbsp;&nbsp;</summary><br>
+          &nbsp;&nbsp;HouMentor님들은 HOUSTEP 자체 기준을 통해 선발된 최소 수년 이상의 인테리어 전문 멘토님들로 꾸려집니다.<br><br>
+          &nbsp;&nbsp;HouMentor님들은 HouEdu 베테랑 반장님들과 협업하여 여러분의 취업과 실무에 이르기까지 밀착 케어를 통해,<br><br>&nbsp;&nbsp;여러분이 범접할 수 없는 HouEdu 시스템만의 전문가로 성장하기에 부족함이 없도록 함께해주실 것입니다!
+        </details>
+        <details>
+          <summary>Q: ALL PASS + iPhone 14 / iPad mini Package 이벤트가 궁금해요!&nbsp;&nbsp;&nbsp;&nbsp;</summary><br>
+          <ul>&nbsp;&nbsp;Q: 선착순이라고 하는데 혹시 품절됐나요?<br><br>
+            <li>&nbsp;&nbsp;A. 해당 페이지 내에 상품이 보이는 경우 품절이 아닙니다. 다만 혹시 구매 후 품절될 경우 별도 안내드리고 있으니 안심하고 구매하셔도 좋습니다.</li>&nbsp;&nbsp;
+            <li>&nbsp;&nbsp;Q: 이벤트 상품 및 구성을 고르거나 변경할 수 있나요? </li>&nbsp;&nbsp;
+            <li>&nbsp;&nbsp;A. 이벤트 상품 및 구성을 고르거나 변경할 수 없습니다. </li>&nbsp;&nbsp;
+            <li>&nbsp;&nbsp;Q: 배송은 어떻게 진행되나요? </li>&nbsp;&nbsp;
+            <li>&nbsp;&nbsp;A. iPad mini는 4월 3일(화)부터 한진택배사를 통해 순차적으로 발송될 예정입니다. 당사의 사정에 의해 배송이 지연될 경우 별도로 개별 연락을 드릴 예정입니다.</li>
+          </ul>
+        </details>
+        <details>
+          <summary>Q: 계정 휴면 및 휴면 해제는 어떻게 하나요?&nbsp;&nbsp;&nbsp;&nbsp;</summary><br>
+          &nbsp;&nbsp; A. 계정 휴면은 My Room 페이지를 통해 언제든지 신청하실 수 있으며<br><br>
+          &nbsp;&nbsp; 휴면 계정 해제 역시 My Room 페이지에서 신청하실 수 있습니다.<br><br>
+          &nbsp;&nbsp; 최대 1-2일 내에 처리되며, 프리미엄 회원은 신청 즉시 처리 됩니다. 
+        </details>
+        <details class="qna-last">
+          <summary>Q: 강의 취소 및 계정 탈퇴는 어떻게 하나요? &nbsp;&nbsp;&nbsp;&nbsp;</summary><br>
+          &nbsp;&nbsp;A. 강의 신청 취소 및 계정 탈퇴는 My Room 페이지에서 가능하시며<br><br>
+          &nbsp;&nbsp;카드 및 계좌이체 취소 환불은 신청 당시 입력하신 계좌로 자동 환불 처리됩니다.<br><br>
+          &nbsp;&nbsp;기타 자세한 문의 사항은 oz-houedu@gmail.com 또는 고객센터 02-8765-4321로 문의주시기 바랍니다. 
+        </details>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-menu">
+        <div class="footer-info">
+          <ul>
+            <li><a href="#" target="_blank">회사소개</a></li>
+            <li><a href="#" target="_blank">인재채용</a></li>
+            <li><a href="#" target="_blank">서비스 소개</a></li>
+            <li><a href="#" target="_blank">이용약관</a></li>
+            <li><a href="#" target="_blank">개인정보 처리방침</a></li>
+            <li><a href="#" target="_blank">고객센터</a></li>
+          </ul>
+          <br>
+        </div>
+        <div class="detail-box">
+          <p>
+            <span>대표이사 : LEE JEONGHOON &nbsp;&nbsp;&nbsp;| </span>
+            <span>사업자정보확인 &nbsp;&nbsp;&nbsp;| </span>
+            <span>사업자등록번호 : 790 - 81 - 00330  &nbsp;&nbsp;&nbsp;| </span>
+            <span>통신판매신고번호 : 2019 - 서울서초 - 2029</span>
+          </p>
+          <p>
+            <span>사업장 : 서울특별시 서초구 강남대로 299, 에피소드 강남 262 4층 &nbsp;&nbsp;&nbsp;| </span>
+            <span>호스팅사업자 : OZ-HOUSTEP (주)</span>
+          </p>
+          <p>
+            <span><a href="#">고객문의 바로가기 &nbsp;&nbsp;&nbsp;| </a></span>
+            <span>대표메일 : oz-houedu@gmail.com &nbsp;&nbsp;&nbsp;| </span>
+            <span>고객센터 : 1522-2506 (평일 10시 30분~19시,공휴일 휴무 | 주말 10시 30분~19시 쇼룸 상담 문의)</span>
+          </p>
+        </div>
+        <div id="sns">
+            <a href="#"><img class="sns-icon" src="./images/youtube1.png" alt="유튜브로 이동"></a>
+            <a href="#"><img class="sns-icon" src="./images/instagram1.png" alt="인스타그램으로 이동"></a>
+            <a href="#"><img class="sns-icon" src="./images/twitter1.png" alt="트위터로 이동"></a>            
+            <a href="#"><img class="sns-icon" src="./images/facebook1.png" alt="페이스북으로 이동"></a>
+        </div>
+        <div>
+          <p class="copy-right">Copyright ⓒ 주식회사 OZ-HOUSTEP All right reserved.</p>
+        </div>
+      </div>
+
+
+      <!-- 하단 고정 email 입력창 -->
+      <div id="email">
+        <form action="" method="get">
+          <label for="email" class="event">All PASS + iPhone 14 / iPad mini Package 이벤트!! &nbsp;&nbsp;&nbsp;
+            <input class="email" type="email" placeholder="   이메일 주소를 입력해주세요">
+            <button class="submit">이벤트 신청</button>
+          </label>
+        </form>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>                       
